@@ -1,6 +1,6 @@
 package Loops;
 
-class Loops {
+class While {
     public static void main(String[] args){
         int i = 0;
         // while (i<2) {
@@ -12,6 +12,6 @@ class Loops {
             System.out.println("Hello");
             i++;
         }
-        while(i<3);
+        while(i<2);
     }
 }

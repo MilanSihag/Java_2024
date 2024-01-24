@@ -1,8 +1,12 @@
 package Loops;
-class Loops {
+
+class For {
     public static void main(String[] args){
-        for(int i = 0; i<5; i+=2){
-            System.out.println(i + "Milan");
+        for(int i = 0; i<5; i++){
+            for(int j=5; j>i; j--){
+                System.out.print("*");
+            }
+            System.out.print("\n");
         }
     }    
 }
