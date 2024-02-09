@@ -34,4 +34,13 @@ class Encapsulation {
         System.out.println("New Account name: " + obj.getAcc_name());
     }    
 }
-
+/*Diff btw static and reference
+ * Static
+ * it is shared by all the instances of the class
+ * can be accessed using directly class name
+ * only one copy exist regardless the number of instances of class
+ * 
+ * Reference
+ *  each instance has its own copy
+ * each object will have own copy 
+ */
