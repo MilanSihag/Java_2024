@@ -1,25 +1,26 @@
 package Collections;
-// import java.util.ArrayList;
-// class operation_arrayList {
-//     public static void main(String[] args){
-//         ArrayList<String> arr1 = new ArrayList<>();
-//         arr1.add("Bikaner");
-//         arr1.add("Churu");
-//         arr1.add("Jaipur");
-//         arr1.add("Jodhpur");
+import java.util.ArrayList;
+class operation_arrayList {
+    public static void main(String[] args){
+        ArrayList<String> arr1 = new ArrayList<>();
+        arr1.add("Bikaner");
+        arr1.add("Churu");
+        arr1.add("Jaipur");
+        arr1.add("Jodhpur");
 
-//         System.out.println("Element at 2 is: "+arr1.get(2));
+        System.out.println("Element at 2 is: "+arr1.get(2));
 
-//         arr1.set(3,"Ajmer");
-//         System.out.println(arr1);
+        arr1.set(3,"Ajmer");
+        System.out.println(arr1);
 
-//         arr1.remove(2);
-//         System.out.println("After removal: "+arr1);
+        arr1.remove(2);
+        System.out.println("After removal: "+arr1);
 
-        
-//     }    
-// }
-
+        ArrayList<String> clonedArr = (ArrayList<String>)arr1.clone();
+        System.out.println("Cloned array: " + clonedArr);
+    }    
+}
+/*
 import java.util.ArrayList;
 class Student{
     
@@ -52,3 +53,4 @@ class Demo{
         s1.displayAll();
     }
 }
+*/
